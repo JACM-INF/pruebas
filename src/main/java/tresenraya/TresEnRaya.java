@@ -79,7 +79,7 @@ public class TresEnRaya {
                 try {
                     casilla = Integer.parseInt(dato) - 1;
                 } catch (NumberFormatException e) {
-                    System.out.println("Dato incorrecto. Solo n�meros (0-2)");
+                    System.out.println("Dato incorrecto. Solo numeros (0-2)");
                 }
             }
         } while (!(casilla >=0 && casilla <=2));
